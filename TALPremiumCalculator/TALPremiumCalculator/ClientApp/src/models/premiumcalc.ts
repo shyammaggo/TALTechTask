@@ -7,3 +7,8 @@ export interface PremiumCalc {
     occupationList: string;
     sumInsured: number;
 }
+export interface occupationList {
+  factor: string;
+  occupationList: string;
+
+}

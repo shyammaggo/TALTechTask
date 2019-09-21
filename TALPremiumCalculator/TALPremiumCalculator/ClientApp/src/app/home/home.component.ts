@@ -2,6 +2,8 @@ import { Component, OnInit, ViewEncapsulation  } from '@angular/core';
 import { FormGroup, Validators, FormBuilder } from '@angular/forms';
 import { dateValidator } from '../dateValidator';
 import { PremiumCalc } from '../../models/premiumcalc';
+import { Http } from '@angular/http';
+                                          
 const DATE_REGEX = new RegExp(/^(\d{2}|\d)\/(\d{2}|\d)\/\d{4}$/);
 
 @Component({
@@ -64,36 +66,12 @@ export class HomeComponent implements OnInit {
      this.submitted = true;
     if (this.registerForm.valid) {
       this.premiumCalc = this.registerForm.value;
-     // alert(this.premiumCalc.sumInsured + "...." + this.premiumCalc.age + ">>>" + filterVal +  ">>" + filterVal);
       this.premiumAmount = (this.premiumCalc.sumInsured * filterVal * this.premiumCalc.age) / 1000 * 12;
       this.premiumAmount = Math.round(this.premiumAmount);
-     // alert(this.premiumAmount);
-
-
-    //if (filterVal == "0")
-
-    //  this.forecasts = this.cacheForecasts;
-
-    //else
-
-    //  this.forecasts = this.cacheForecasts.filter((item) => item.summary == filterVal);
+    
 
   }
-  //onSubmit() {
-  //  this.submitted = true;
-  //  if (this.registerForm.valid) {
-  //    this.premiumCalc = this.registerForm.value;
-
-      //this.payeeService.AddChequePayee(this.Cheque).subscribe((res) => {
-      //  if (res.status == 201) {
-      //    this.route.navigate(['/viewcheque', this.Cheque.payeeName, this.Cheque.chequeAmount, this.Cheque.chequeDate]);
-      //  }
-      //}, (err) => {
-      //  if (err.status == 201) {
-      //    this.route.navigate(['/viewcheque', this.Cheque.payeeName, this.Cheque.chequeAmount, this.Cheque.chequeDate]);
-      //  }
-      //});
-    //}
+ 
    
   }
 }

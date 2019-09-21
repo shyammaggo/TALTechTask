@@ -1,0 +1,12 @@
+C:\TALTechTask\TALTechTask\TALPremiumCalculator\Entities\bin\Debug\netcoreapp2.2\Entities.deps.json
+C:\TALTechTask\TALTechTask\TALPremiumCalculator\Entities\bin\Debug\netcoreapp2.2\Entities.dll
+C:\TALTechTask\TALTechTask\TALPremiumCalculator\Entities\bin\Debug\netcoreapp2.2\Entities.pdb
+C:\TALTechTask\TALTechTask\TALPremiumCalculator\Entities\bin\Debug\netcoreapp2.2\Microsoft.EntityFrameworkCore.dll
+C:\TALTechTask\TALTechTask\TALPremiumCalculator\Entities\bin\Debug\netcoreapp2.2\Microsoft.EntityFrameworkCore.xml
+C:\TALTechTask\TALTechTask\TALPremiumCalculator\Entities\obj\Debug\netcoreapp2.2\Entities.csprojAssemblyReference.cache
+C:\TALTechTask\TALTechTask\TALPremiumCalculator\Entities\obj\Debug\netcoreapp2.2\Entities.csproj.CoreCompileInputs.cache
+C:\TALTechTask\TALTechTask\TALPremiumCalculator\Entities\obj\Debug\netcoreapp2.2\Entities.AssemblyInfoInputs.cache
+C:\TALTechTask\TALTechTask\TALPremiumCalculator\Entities\obj\Debug\netcoreapp2.2\Entities.AssemblyInfo.cs
+C:\TALTechTask\TALTechTask\TALPremiumCalculator\Entities\obj\Debug\netcoreapp2.2\Entities.csproj.CopyComplete
+C:\TALTechTask\TALTechTask\TALPremiumCalculator\Entities\obj\Debug\netcoreapp2.2\Entities.dll
+C:\TALTechTask\TALTechTask\TALPremiumCalculator\Entities\obj\Debug\netcoreapp2.2\Entities.pdb
