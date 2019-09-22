@@ -22,5 +22,6 @@ namespace TALPremiumCalculatorUnitTest
         private LoggerManager _logger;
         private Mock<IRepositoryWrapper> _repository;
         private List<PremiumCalculator> PremiumCalculatorList;
+
     }
 }

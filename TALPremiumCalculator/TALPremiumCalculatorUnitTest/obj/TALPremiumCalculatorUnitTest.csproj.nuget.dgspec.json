@@ -352,7 +352,11 @@
         },
         "frameworks": {
           "netcoreapp2.2": {
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\TALTechTask\\TALTechTask\\TALPremiumCalculator\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\TALTechTask\\TALTechTask\\TALPremiumCalculator\\Entities\\Entities.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -388,6 +392,10 @@
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[2.2.3, )"
+            },
+            "System.Collections.NonGeneric": {
+              "target": "Package",
+              "version": "[4.3.0, )"
             }
           },
           "imports": [

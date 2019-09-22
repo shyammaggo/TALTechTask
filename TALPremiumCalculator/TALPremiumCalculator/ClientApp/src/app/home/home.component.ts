@@ -66,6 +66,7 @@ export class HomeComponent implements OnInit {
      this.submitted = true;
     if (this.registerForm.valid) {
       this.premiumCalc = this.registerForm.value;
+      //TO DO: Hit the WebAPI to get the premium Calculated.
       this.premiumAmount = (this.premiumCalc.sumInsured * filterVal * this.premiumCalc.age) / 1000 * 12;
       this.premiumAmount = Math.round(this.premiumAmount);
     
